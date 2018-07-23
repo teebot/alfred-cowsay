@@ -1,0 +1,16 @@
+{
+  "name": "alfred-cowsay",
+  "version": "1.0.0",
+  "description": "Alfred Cowsay Workflow",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": "teebot",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^0.7.0",
+    "cowsay": "^1.3.1"
+  }
+}
